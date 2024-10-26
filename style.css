@@ -1,0 +1,43 @@
+body{
+    background-image: url('https://files.catbox.moe/5ystn8.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    margin: 19px;
+  }
+  /* anchor tag*/
+  a:hover{
+    text-decoration: wavy;
+    font-size: 16.2px;
+  }
+  /*div class= "card"*/
+  .card{
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /*card img*/
+  img{
+    width: 240px;
+    margin-right: 20px;
+  }
+  p{
+    font-family: cursive;
+    font-size: 16px;
+    color: black;
+    margin: 7px;
+    font-size: 16px;
+  }
+button{
+  background-color: transparent;
+  border-radius: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  padding: 5 7;
+  margin: 3px;
+}
